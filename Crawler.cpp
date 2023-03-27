@@ -13,3 +13,7 @@ void Crawler::move() // overriding bug move to crawlers move
 {
 
 }
+
+Crawler::~Crawler()   // destructor
+{
+}
