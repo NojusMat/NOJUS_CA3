@@ -9,7 +9,7 @@ Crawler::Crawler(int id,std::pair<int, int> position,Direction direction,int siz
 
 }
 
-void Crawler::move()
+void Crawler::move() // overriding bug move to crawlers move
 {
 
 }
