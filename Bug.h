@@ -40,6 +40,7 @@ class Bug{
     bool alive;
     std::list<std::pair<int,int>> path;
 
+
 };
 
 

@@ -7,20 +7,15 @@
 
 #include "Bug.h"
 
-class Crawler: public Bug{
-private:
+class Crawler: public Bug{// public inheritance
+public:
+    Crawler(int id,std::pair<int, int> position,Direction direction,int size);
+
+    void move()override;
 
 
-    int id;
-    int x, y;
-//    pair<int, int> position;
-    int direction;
-    int size;
-    bool alive;
-//    list<pair<int,int>> path;
-//    virtual move() {}
-    bool isWayBlocked() {}
-    void move(){}
+
+    ~Crawler();
 };
 
 
