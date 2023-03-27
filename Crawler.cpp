@@ -3,3 +3,13 @@
 //
 
 #include "Crawler.h"
+
+Crawler::Crawler(int id,std::pair<int, int> position,Direction direction,int size): Bug(id,position,direction,size)
+{
+
+}
+
+void Crawler::move()
+{
+
+}
