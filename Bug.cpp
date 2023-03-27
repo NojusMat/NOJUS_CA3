@@ -8,10 +8,4 @@
 
 using namespace std;
 
-Bug::Bug(int id,int direction,int size,bool alive) {
-    this->id = id;
-    this->direction = direction;
-    this->size = size;
-    this->alive = alive;
-
-}
+Bug::~Bug() { cout << "~Bug() called. The ShaBugpe base destructor is called after derived destructor.\n"; }
