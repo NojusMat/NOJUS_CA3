@@ -21,6 +21,7 @@ class Bug{
     Direction getdirection();
     int getsize();
     bool getalive();
+    bool isWayBlocked();
 };
 
 
