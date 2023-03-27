@@ -17,18 +17,19 @@ class Bug{
     virtual ~Bug() =default;       // DESTRUCTOR
 
 
-    int getid()const;                            // getting info for bug
+    int getID()const;                            // getting info for bug
     std::pair<int, int> getPosition()const;
     Direction getDirection()const;
     int getSize()const;
     bool getAlive()const;
     bool isWayBlocked()const;
 
-    void setPosition(const std::pair<int, int> getposition);   //setting info for bug
+    void setID(int id_bug);
+    void setPosition(const std::pair<int, int> position_bug);   //setting info for bug
     void setDirection(Direction direction);
-    void setSize(int size);
-    void setAlive(bool alive);
-    void setPath( const std::list<std::pair<int,int>> pathconst);
+    void setSize(int size_bug);
+    void setAlive(bool alive_bug);
+    void setPath( const std::list<std::pair<int,int>> path_bug);
 
 
     private:
