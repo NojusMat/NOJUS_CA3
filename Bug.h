@@ -16,12 +16,11 @@ class Bug{
     virtual ~Bug() =default;       // DESTRUCTOR
     virtual void move()=0;
 
-
-    int id;
-    std::pair<int, int> position;
-    Direction direction;
-    int size;
-    bool alive;
+    int getid();
+    std::pair<int, int> getposition();
+    Direction getdirection();
+    int getsize();
+    bool getalive();
 };
 
 
